@@ -13,6 +13,13 @@
 		A4F53F7D2715938700C22525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F53F7B2715938700C22525 /* Main.storyboard */; };
 		A4F53F7F2715938A00C22525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F53F7E2715938A00C22525 /* Assets.xcassets */; };
 		A4F53F822715938A00C22525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F53F802715938A00C22525 /* LaunchScreen.storyboard */; };
+		CB6B9F722BC844CD007B5CD0 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F6A2BC844CC007B5CD0 /* note1.wav */; };
+		CB6B9F732BC844CD007B5CD0 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F6B2BC844CC007B5CD0 /* note2.wav */; };
+		CB6B9F742BC844CD007B5CD0 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F6C2BC844CC007B5CD0 /* note3.wav */; };
+		CB6B9F752BC844CD007B5CD0 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F6D2BC844CC007B5CD0 /* note4.wav */; };
+		CB6B9F762BC844CD007B5CD0 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F6E2BC844CC007B5CD0 /* note5.wav */; };
+		CB6B9F772BC844CD007B5CD0 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F6F2BC844CC007B5CD0 /* note6.wav */; };
+		CB6B9F782BC844CD007B5CD0 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB6B9F702BC844CC007B5CD0 /* note7.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		A4F53F7E2715938A00C22525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F53F812715938A00C22525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4F53F832715938A00C22525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6B9F6A2BC844CC007B5CD0 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		CB6B9F6B2BC844CC007B5CD0 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		CB6B9F6C2BC844CC007B5CD0 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		CB6B9F6D2BC844CC007B5CD0 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		CB6B9F6E2BC844CC007B5CD0 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		CB6B9F6F2BC844CC007B5CD0 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		CB6B9F702BC844CC007B5CD0 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +75,25 @@
 				A4F53F792715938700C22525 /* ViewController.swift */,
 				A4F53F7B2715938700C22525 /* Main.storyboard */,
 				A4F53F7E2715938A00C22525 /* Assets.xcassets */,
+				CB6B9F712BC844CC007B5CD0 /* SoundFiles */,
 				A4F53F802715938A00C22525 /* LaunchScreen.storyboard */,
 				A4F53F832715938A00C22525 /* Info.plist */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		CB6B9F712BC844CC007B5CD0 /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B9F6A2BC844CC007B5CD0 /* note1.wav */,
+				CB6B9F6B2BC844CC007B5CD0 /* note2.wav */,
+				CB6B9F6C2BC844CC007B5CD0 /* note3.wav */,
+				CB6B9F6D2BC844CC007B5CD0 /* note4.wav */,
+				CB6B9F6E2BC844CC007B5CD0 /* note5.wav */,
+				CB6B9F6F2BC844CC007B5CD0 /* note6.wav */,
+				CB6B9F702BC844CC007B5CD0 /* note7.wav */,
+			);
+			path = SoundFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B9F772BC844CD007B5CD0 /* note6.wav in Resources */,
+				CB6B9F762BC844CD007B5CD0 /* note5.wav in Resources */,
+				CB6B9F742BC844CD007B5CD0 /* note3.wav in Resources */,
+				CB6B9F722BC844CD007B5CD0 /* note1.wav in Resources */,
+				CB6B9F752BC844CD007B5CD0 /* note4.wav in Resources */,
+				CB6B9F732BC844CD007B5CD0 /* note2.wav in Resources */,
+				CB6B9F782BC844CD007B5CD0 /* note7.wav in Resources */,
 				A4F53F822715938A00C22525 /* LaunchScreen.storyboard in Resources */,
 				A4F53F7F2715938A00C22525 /* Assets.xcassets in Resources */,
 				A4F53F7D2715938700C22525 /* Main.storyboard in Resources */,
